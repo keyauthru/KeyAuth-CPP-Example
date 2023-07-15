@@ -46,7 +46,7 @@ KeyAuth лицензирован по **эластичной лицензии 2.
 
 Визит https://keyauth.ru/app / и выберите свое приложение, затем перейдите на вкладку **C++**
 
-Это предоставит вам код, который вы должны заменить в [`main.cpp `](https://github.com/keyauthru/Key Файл Auth-PHP-Example/blob/main/main.cpp#L13-L16)
+Это предоставит вам код, который вы должны заменить в [`main.cpp `](https://github.com/keyauthru/KeyAuth-CPP-Example/blob/main/main.cpp#L13-L16)
 
 ```cpp
 std::string name = "example"; // application name. right above the blurred text aka the secret on the licenses tab among other tabs
