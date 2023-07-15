@@ -1,58 +1,54 @@
-# KeyAuth-CPP-Example
+# KeyAuth-CPP-Пример
 
-KeyAuth C++ example for the https://keyauth.ru authentication system.
+Пример KeyAuth C++ для https://keyauth.ru система аутентификации.
 
-The source code of the static library for KeyAuth is here https://github.com/KeyAuth/keyauth-cpp-library
+Исходный код статической библиотеки для KeyAuth находится здесь https://github.com/KeyAuth/keyauth-cpp-library
 
-## **Bugs**
+## **Ошибки**
 
-If the default example not added to your software isn't functioning how it should, please join the Discord server https://discord.gg/keyauth and submit the issue in the `#bugs` channel.
+Если пример по умолчанию, не добавленный в ваше программное обеспечение, работает неправильно, пожалуйста, присоединяйтесь к серверу Discord https://discord.gg/keyauth и отправьте сообщение о проблеме в канале `#ошибки`.
 
-However, we do **NOT** provide support for adding KeyAuth to your project. If you can't figure this out you should use Google or YouTube to learn more about the programming language you want to sell a program in.
+Однако мы **НЕ** предоставляем поддержку для добавления KeyAuth в ваш проект. Если вы не можете в этом разобраться, вам следует воспользоваться Google или YouTube, чтобы узнать больше о языке программирования, на котором вы хотите продавать программу.
 
-## **Security practices**
+## **Методы обеспечения безопасности**
 
-* Utilize obfuscation provided by companies such as VMProtect or Themida (utilize their SDKs too for greater protection)
-* Preform frequent integrity checks to ensure the memory of the program has not been modified
-* Don't write the bytes of a file you've downloaded to disk if you don't want that file to be retrieved by the user. Rather, execute the file in memory and erase it from memory the moment execution finishes
+* Используйте обфускацию, предоставляемую такими компаниями, как VMProtect или Themida (также используйте их SDK для большей защиты)
+* Проводите частые проверки целостности заготовки, чтобы убедиться, что память программы не была изменена
+* Не записывайте байты загруженного вами файла на диск, если вы не хотите, чтобы этот файл был извлечен пользователем. Скорее, запустите файл в памяти и сотрите его из памяти в тот момент, когда выполнение завершится
 
-*KeyAuth is provided in Source Code Form. The burden of client-side protection is on you the software developer, as it would be with any authentication system.*
+*KeyAuth предоставляется в виде исходного кода. Бремя защиты на стороне клиента лежит на вас, разработчике программного обеспечения, как и в случае с любой системой аутентификации.*
 
-## Copyright License
+## Лицензия на авторское право
 
-KeyAuth is licensed under **Elastic License 2.0**
+KeyAuth лицензирован по **эластичной лицензии 2.0**
 
-* You may not provide the software to third parties as a hosted or managed
-service, where the service provides users with access to any substantial set of
-the features or functionality of the software.
+* Вы не имеете права предоставлять программное обеспечение третьим лицам в качестве размещенного или управляемого
+сервиса, если сервис предоставляет пользователям доступ к какому-либо существенному набору
+особенности или функционал программного обеспечения.
 
-* You may not move, change, disable, or circumvent the license key functionality
-in the software, and you may not remove or obscure any functionality in the
-software that is protected by the license key.
+* Вы не имеете права перемещать, изменять, отключать или обходить функциональные возможности лицензионного ключа
+в программном обеспечении, а также вы не имеете права удалять или скрывать какие-либо функциональные
+возможности программного обеспечения, защищенные лицензионным ключом.
 
-* You may not alter, remove, or obscure any licensing, copyright, or other notices
-of the licensor in the software. Any use of the licensor’s trademarks is subject
-to applicable law.
+* Вы не имеете права изменять, удалять или скрывать какие-либо уведомления о лицензировании, авторских правах или другие уведомления
+лицензиара в программном обеспечении. Любое использование товарных знаков лицензиара регулируется
+применимым законодательством.
 
-Thank you for your compliance, we work hard on the development of KeyAuth and do not appreciate our copyright being infringed.
+Благодарим вас за ваше согласие, мы усердно работаем над разработкой KeyAuth и не одобряем нарушения наших авторских прав.
 
-## **What is KeyAuth?**
+## **Проблемы с подключением клиента?**
 
-KeyAuth is an Open source authentication system with cloud hosting plans as well. Client SDKs available for [C#](https://github.com/KeyAuth/KeyAuth-CSHARP-Example), [C++](https://github.com/keyauthru/KeyAuth-CPP-Example), [Python](https://github.com/KeyAuth/KeyAuth-Python-Example), [Java](https://github.com/SprayDown/KeyAuth-JAVA-api), [JavaScript](https://github.com/mazkdevf/KeyAuth-JS-Example), [VB.NET](https://github.com/KeyAuth/KeyAuth-VB-Example), [PHP](https://github.com/KeyAuth/KeyAuth-PHP-Example), [Rust](https://github.com/KeyAuth/KeyAuth-Rust-Example), [Go](https://github.com/mazkdevf/KeyAuth-Go-Example), [Lua](https://github.com/mazkdevf/KeyAuth-Lua-Examples), [Ruby](https://github.com/mazkdevf/KeyAuth-Ruby-Example), and [Perl](https://github.com/mazkdevf/KeyAuth-Perl-Example). KeyAuth has several unique features such as memory streaming, webhook function where you can send requests to API without leaking the API, discord webhook notifications, ban the user securely through the application at your discretion. Feel free to join https://discord.gg/keyauth if you have questions or suggestions.
+Это распространено среди всех систем аутентификации. Запутывание программы приводит к ложным срабатываниям антивирусных сканеров, и с учетом масштаба проверки подлинности ключа это воспринимается как вредоносный домен. Итак, `keyauth.ru " были заблокированы многими интернет-провайдерами. для панели мониторинга, панели реселлера, панели клиента используйте `keyauth.ru `
 
-## **Customer connection issues?**
+Для API, `keyauth.ru "не сработает, потому что я намеренно заблокировал его там, так что `keyauth.ru "также не блокируется. Итак, вам следует создать свой собственный домен и следовать этому обучающему видео https://www.youtube.com/watch?v=a2SROFJ0eYc . В обучающем видео показано, как создать доменное имя на 100% бесплатно, если вы не хотите его приобретать.
 
-This is common amongst all authentication systems. Program obfuscation causes false positives in virus scanners, and with the scale of KeyAuth this is perceived as a malicious domain. So, `keyauth.ru` have been blocked by many internet providers. for dashbord, reseller panel, customer panel, use `keyauth.ru`
+## **Определение экземпляра `KeyAuthApp`**
 
-For API, `keyauth.ru` will not work because I purposefully blocked it on there so `keyauth.ru` doesn't get blocked also. So, you should create your own domain and follow this tutorial video https://www.youtube.com/watch?v=a2SROFJ0eYc. The tutorial video shows you how to create a domain name for 100% free if you don't want to purchase one.
+Визит https://keyauth.ru/app / и выберите свое приложение, затем перейдите на вкладку **C++**
 
-## **`KeyAuthApp` instance definition**
+Это предоставит вам код, который вы должны заменить в [`main.cpp `](https://github.com/keyauthru/Key Файл Auth-PHP-Example/blob/main/main.cpp#L13-L16)
 
-Visit https://keyauth.ru/app/ and select your application, then click on the **C++** tab
-
-It'll provide you with the code which you should replace with in the [`main.cpp`](https://github.com/keyauthru/KeyAuth-CPP-Example/blob/main/main.cpp#L13-L16) file
-
-```cpp
+``cpp
 std::string name = "example"; // application name. right above the blurred text aka the secret on the licenses tab among other tabs
 std::string ownerid = "JjPMBVlIOd"; // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
 std::string secret = "db40d586f4b189e04e5c18c3c94b7e72221be3f6551995adc05236948d1762bc"; // app secret, the blurred text on licenses tab and other tabs
@@ -62,9 +58,9 @@ std::string url = "https://keyauth.ru/api/1.2/"; // change if you're self-hostin
 api KeyAuthApp(name, ownerid, secret, version, url);
 ```
 
-## **Initialize application**
+## **Инициализировать приложение**
 
-You must call this function prior to using any other KeyAuth function. Otherwise the other KeyAuth function won't work.
+Вы должны вызвать эту функцию перед использованием любой другой функции проверки подлинности ключа. В противном случае другая функция аутентификации по ключу не будет работать.
 
 ```cpp
 KeyAuthApp.init();
@@ -76,7 +72,7 @@ if (!KeyAuthApp.data.success)
 }
 ```
 
-## **Display application information**
+## **Отображение информации о приложении**
 
 ```cpp
 std::cout << skCrypt("\n\n App data:");
@@ -87,9 +83,9 @@ std::cout << skCrypt("\n Application Version: ") << KeyAuthApp.data.version;
 std::cout << skCrypt("\n Customer panel link: ") << KeyAuthApp.data.customerPanelLink;
 ```
 
-## **Check session validation**
+## **Проверьте правильность сеанса**
 
-Use this to see if the user is logged in or not.
+Используйте это, чтобы узнать, вошел ли пользователь в систему или нет.
 
 ```cpp
 std::cout << skCrypt("\n Checking session validation status (remove this if causing your loader to be slow)");
@@ -97,9 +93,9 @@ KeyAuthApp.check();
 std::cout << skCrypt("\n Current Session Validation Status: ") << KeyAuthApp.data.message;
 ```
 
-## **Check blacklist status**
+## **Проверьте статус черного списка**
 
-Check if HWID or IP Address is blacklisted. You can add this if you want, just to make sure nobody can open your program for less than a second if they're blacklisted. Though, if you don't mind a blacklisted user having the program for a few seconds until they try to login and register, and you care about having the quickest program for your users, you shouldn't use this function then. If a blacklisted user tries to login/register, the KeyAuth server will check if they're blacklisted and deny entry if so. So the check blacklist function is just auxiliary function that's optional.
+Проверьте, внесен ли HWID или IP-адрес в черный список. Вы можете добавить это, если хотите, просто чтобы убедиться, что никто не сможет открыть вашу программу менее чем на секунду, если они занесены в черный список. Однако, если вы не возражаете, чтобы пользователь, занесенный в черный список, пользовался программой в течение нескольких секунд, пока он не попытается войти в систему и зарегистрироваться, и вы заботитесь о том, чтобы программа была максимально быстрой для ваших пользователей, тогда вам не следует использовать эту функцию. Если пользователь, внесенный в черный список, попытается войти в систему / зарегистрироваться, сервер проверки подлинности ключей проверит, внесен ли он в черный список, и, если да, отклонит вход. Таким образом, функция проверки черного списка - это просто вспомогательная функция, которая необязательна.
 
 ```cpp
 if (KeyAuthApp.checkblack()) {
@@ -107,7 +103,7 @@ if (KeyAuthApp.checkblack()) {
 }
 ```
 
-## **Login with username/password**
+## **Войдите в систему с помощью имени пользователя/пароля**
 
 ```cpp
 std::string username;
@@ -125,7 +121,7 @@ if (!KeyAuthApp.data.success)
 }
 ```
 
-## **Register with username/password/key**
+## **Зарегистрируйтесь с помощью имени пользователя/пароля/ключа**
 
 ```cpp
 std::string username;
@@ -146,12 +142,12 @@ if (!KeyAuthApp.data.success)
 }
 ```
 
-## **Upgrade user username/key**
+## ** Обновить имя пользователя/ключ**
 
-Used so the user can add extra time to their account by claiming new key.
+Используется для того, чтобы пользователь мог добавить дополнительное время к своей учетной записи, запросив новый ключ.
 
-> **Warning**
-> No password is needed to upgrade account. So, unlike login, register, and license functions - you should **not** log user in after successful upgrade.
+> **Предупреждение**
+> Для обновления учетной записи пароль не требуется. Таким образом, в отличие от функций входа в систему, регистрации и лицензирования - вы не должны **** входить в систему пользователя после успешного обновления.
 
 ```cpp
 std::string username;
@@ -163,9 +159,9 @@ std::cin >> key;
 KeyAuthApp.upgrade(username, key);
 ```
 
-## **Login with just license key**
+## **Войдите в систему, используя только лицензионный ключ**
 
-Users can use this function if their license key has never been used before, and if it has been used before. So if you plan to just allow users to use keys, you can remove the login and register functions from your code.
+Пользователи могут использовать эту функцию, если их лицензионный ключ никогда ранее не использовался и если он использовался ранее. Поэтому, если вы планируете просто разрешить пользователям использовать ключи, вы можете удалить функции входа в систему и регистрации из своего кода.
 
 ```cpp
 std::string key;
@@ -180,9 +176,9 @@ if (!KeyAuthApp.data.success)
 }
 ```
 
-## **Login with web loader**
+## **Войдите в систему с помощью веб-загрузчика**
 
-Have your users login through website. Tutorial video here https://www.youtube.com/watch?v=9-qgmsUUCK4 you can use your own domain for customer panel also, https://www.youtube.com/watch?v=iHQe4GLvgaE
+Попросите ваших пользователей войти в систему через веб-сайт. Обучающее видео здесь https://www.youtube.com/watch?v=9-qgmsUUCK4 вы также можете использовать свой собственный домен для клиентской панели, https://www.youtube.com/watch?v=iHQe4GLvgaE
 
 ```cpp
 std::cout << "\n Waiting for user to login";
@@ -191,9 +187,9 @@ std::cout << "\n Waiting for button to be clicked";
 KeyAuthApp.button("close");
 ```
 
-## **User Data**
+## **Пользовательские данные**
 
-Show information for current logged-in user.
+Отображать информацию для текущего пользователя, вошедшего в систему.
 
 ```cpp
 std::cout << skCrypt("\n User data:");
@@ -209,9 +205,9 @@ std::cout << subs;
 std::cout << skCrypt("\n Subscription expiry: ") << tm_to_readable_time(timet_to_tm(string_to_timet(KeyAuthApp.data.expiry)));
 ```
 
-## **Check subscription name of user**
+## **Проверьте имя пользователя для подписки**
 
-If you want to wall off parts of your app to only certain users, you can have multiple subscriptions with different names. Then, when you create licenses that correspond to the level of that subscription, users who use those licenses will get a subscription with the name of the subscription that corresponds to the level of the license key they used.
+Если вы хотите запретить доступ к частям вашего приложения только определенным пользователям, у вас может быть несколько подписок с разными именами. Затем, когда вы создадите лицензии, соответствующие уровню этой подписки, пользователи, которые используют эти лицензии, получат подписку с названием подписки, соответствующим уровню используемого ими лицензионного ключа.
 
 ```cpp
 for (std::string subs : KeyAuthApp.data.subscriptions)
@@ -223,69 +219,69 @@ for (std::string subs : KeyAuthApp.data.subscriptions)
 }
 ```
 
-## **Application variables**
+## **Переменные приложения**
 
-A string that is kept on the server-side of KeyAuth. On the dashboard you can choose for each variable to be authenticated (only logged in users can access), or not authenticated (any user can access before login). These are global and static for all users, unlike User Variables which will be dicussed below this section.
+Строка, которая хранится на стороне сервера Key Auth. На панели мониторинга вы можете выбрать для каждой переменной аутентификацию (доступ могут получить только зарегистрированные пользователи) или не аутентификацию (любой пользователь может получить доступ до входа в систему). Они являются глобальными и статичными для всех пользователей, в отличие от пользовательских переменных, которые будут рассмотрены ниже в этом разделе.
 
 ```cpp
 // get data from global variable with name 'status'
 std::cout << "\n status - " + KeyAuthApp.var("status");
 ```
 
-## **User Variables**
+## **Пользовательские переменные**
 
-User variables are strings kept on the server-side of KeyAuth. They are specific to users. They can be set on Dashboard in the Users tab, via SellerAPI, or via your loader using the code below. `discord` is the user variable name you fetch the user variable by. `test#0001` is the variable data you get when fetching the user variable.
+Пользовательские переменные - это строки, хранящиеся на стороне сервера Key Auth. Они специфичны для пользователей. Их можно установить на панели мониторинга на вкладке "Пользователи", через SellerAPI или через ваш загрузчик, используя приведенный ниже код. "discord" - это имя пользовательской переменной, по которому вы извлекаете пользовательскую переменную. `test#0001` - это данные переменной, которые вы получаете при извлечении пользовательской переменной.
 
 ```cpp
 std::cout << "\n user variable - " + KeyAuthApp.getvar("discord"); // get value of the user variable 'discord'
 ```
 
-And here's how you fetch the user variable:
+И вот как вы извлекаете пользовательскую переменную:
 
 ```cpp
 KeyAuthApp.setvar("discord", "test#0001"); // set the value of user variable 'discord' to 'test#0001'
 ```
 
-## **Application Logs**
+## **Журналы приложений**
 
-Can be used to log data. Good for anti-debug alerts and maybe error debugging. If you set Discord webhook in the app settings of the Dashboard, it will send log messages to your Discord webhook rather than store them on site. It's recommended that you set Discord webhook, as logs on site are deleted 1 month after being sent.
+Может использоваться для регистрации данных. Хорошо подходит для предупреждений об отладке и, возможно, для отладки ошибок. Если вы настроите Discord webhook в настройках приложений панели мониторинга, он будет отправлять сообщения журнала на ваш Discord webhook, а не сохранять их на сайте. Рекомендуется установить Discord webhook, так как логи на сайте удаляются через 1 месяц после отправки.
 
-You can use the log function before login & after login.
+Вы можете использовать функцию регистрации до входа в систему и после входа в систему.
 
 ```cpp
 KeyAuthApp.log("user logged in"); // send event to logs. if you set discord webhook in app settings, it will send there instead of dashboard
 ```
 
-## **Ban the user**
+## **Забанить пользователя**
 
-Ban the user and blacklist their HWID and IP Address. Good function to call upon if you use anti-debug and have detected an intrusion attempt.
+Заблокируйте пользователя и внесите в черный список его HWID и IP-адрес. Хорошая функция для вызова, если вы используете защиту от отладки и обнаружили попытку вторжения.
 
-Function only works after login.
+Функция работает только после входа в систему.
 
 ```cpp
 KeyAuthApp.ban();
 ```
 
-## **Ban the user (with reason)**
+## **Забанить пользователя (с указанием причины)**
 
-Ban the user and blacklist their HWID and IP Address. Good function to call upon if you use anti-debug and have detected an intrusion attempt.
+Заблокируйте пользователя и внесите в черный список его HWID и IP-адрес. Хорошая функция для вызова, если вы используете защиту от отладки и обнаружили попытку вторжения.
 
-Function only works after login.
+Функция работает только после входа в систему.
 
-The reason paramater will be the ban reason displayed to the user if they try to login, and visible on the KeyAuth dashboard.
+Параметром reason будет причина запрета, отображаемая пользователю при попытке входа в систему и видимая на панели управления KeyAuth.
 
 ```cpp
 KeyAuthApp.ban("Don't try to crack my loader, cunt.");
 ```
 
-## **Server-sided webhooks**
+## **Веб-хуки на стороне сервера**
 
-Tutorial video https://www.youtube.com/watch?v=ENRaNPPYJbc
+Обучающее видео https://www.youtube.com/watch?v=ENRaNPPYJbc
 
-> **Note**
-> Read documentation for KeyAuth webhooks here https://docs.keyauth.ru/website/dashboard/webhooks
+> **Примечание**
+> > Прочитайте документацию по веб-ссылкам для проверки подлинности ключей здесь https://docs.keyauth.ru/website/dashboard/webhooks
 
-Send HTTP requests to URLs securely without leaking the URL in your application. You should definitely use if you want to send requests to SellerAPI from your application, otherwise if you don't use you'll be leaking your seller key to everyone. And then someone can mess up your application.
+Безопасно отправляйте HTTP-запросы по URL-адресам, не допуская утечки URL-адреса в вашем приложении. Вам обязательно следует использовать, если вы хотите отправлять запросы к Seller API из своего приложения, в противном случае, если вы этого не сделаете, вы передадите свой ключ продавца всем. И тогда кто-то может испортить ваше приложение.
 
 ```cpp
 std::string resp = KeyAuthApp.webhook("Sh1j25S5iX", "&mak=best&debug=1");
@@ -298,14 +294,14 @@ if (!KeyAuthApp.data.success) // check whether webhook request sent correctly
 std::cout << "\n Response recieved from webhook request: " + resp;
 ```
 
-## **Download file**
+## **Загрузить файл**
 
-> **Note**
-> Read documentation for KeyAuth files here https://docs.keyauth.ru/website/dashboard/files
+> **Примечание**
+> > Ознакомьтесь с документацией по ключевым файлам аутентификации здесь https://docs.keyauth.ru/website/dashboard/files
 
-Keep files secure by providing KeyAuth your file download link on the KeyAuth dashboard. Make sure this is a direct download link (as soon as you go to the link, it starts downloading without you clicking anything). The KeyAuth download function provides the bytes, and then you get to decide what to do with those. This example shows how to write it to a file named `text.txt` in the same folder as the program, though you could execute with RunPE or whatever you want.
+Обеспечьте безопасность файлов, предоставив KeyAuth ссылку для скачивания вашего файла на панели управления KeyAuth. Убедитесь, что это прямая ссылка для скачивания (как только вы перейдете по ссылке, она начнет загружаться без вашего нажатия на что-либо). Функция загрузки KeyAuth предоставляет байты, а затем вы сами решаете, что с ними делать. В этом примере показано, как записать его в файл с именем `text.txt ` в той же папке, что и программа, хотя вы могли бы выполнить ее с помощью RunPE или чего угодно еще.
 
-`362906` is the file ID you get from the dashboard after adding file.
+`362906` - это идентификатор файла, который вы получаете на панели мониторинга после добавления файла.
 
 ```cpp
 // remember, certain paths like windows folder will require you to turn on auto run as admin https://stackoverflow.com/a/19617989
@@ -321,9 +317,9 @@ file.write((char*)bytes.data(), bytes.size());
 file.close();
 ```
 
-## **Chat channels**
+## **Каналы чата**
 
-Allow users to communicate amongst themselves in your program.
+Разрешите пользователям общаться между собой в вашей программе.
 
 ```cpp
 KeyAuthApp.chatget("test");
@@ -343,11 +339,11 @@ if (!KeyAuthApp.chatsend("test", message))
 }
 ```
 
-Here's an ImGui example https://github.com/KeyAuth-Archive/KeyAuth-Chat-ImGui-CPP
+Вот пример ImGui https://github.com/KeyAuth-Archive/KeyAuth-Chat-ImGui-CPP
 
-## **Changing username**
+## **Изменение имени пользователя**
 
-Allow users to change their username when logged-in.
+Разрешите пользователям изменять свое имя пользователя при входе в систему.
 
 ```cpp
 std::cout << skCrypt("\n Change Username To: ");
