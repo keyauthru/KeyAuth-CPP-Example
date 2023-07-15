@@ -48,7 +48,7 @@ KeyAuth лицензирован по **эластичной лицензии 2.
 
 Это предоставит вам код, который вы должны заменить в [`main.cpp `](https://github.com/keyauthru/Key Файл Auth-PHP-Example/blob/main/main.cpp#L13-L16)
 
-``cpp
+```cpp
 std::string name = "example"; // application name. right above the blurred text aka the secret on the licenses tab among other tabs
 std::string ownerid = "JjPMBVlIOd"; // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
 std::string secret = "db40d586f4b189e04e5c18c3c94b7e72221be3f6551995adc05236948d1762bc"; // app secret, the blurred text on licenses tab and other tabs
